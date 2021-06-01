@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.background{
+    background:url('./assets/images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height:5px;
+}
+::-webkit-scrollbar-track {
+    background: #343a40;
+}
+::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+a{
+    text-decoration: none;
+}
+mat-form-field{
+    width: 100%;
+}
+.mat-form-control{
+    width: 100%;
+}
+.mat-form-field-appearance-outline .mat-form-field-outline{
+    color: #343a40 !important;
+}
+.mat-form-field-invalid .mat-form-field-outline{
+    color: #b50106 !important;
+}
+.auth-form{
+    background:white;
+    padding:30px;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width:467px) {
+    .auth-form{
+        margin-left: 0;
+    }
+}
